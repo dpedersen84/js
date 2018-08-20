@@ -21,3 +21,8 @@ console.log(str3.search(/A..B/gi)) // 4
 
 // character B is 5 spaces away from B
 console.log(str3.search(/B.....B/gi)) // 1
+
+// get all words that only start with a letter
+var str4 = "Hey 4get these words 4bout numb3rs";
+var words = str4.match(/\b[a-z]+/gi)
+console.log(words) // [ 'Hey', 'these', 'words', 'numb' ]

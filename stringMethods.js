@@ -34,6 +34,6 @@ console.log(string4) // Hello planet Mars
 
 // substr
 // Return a substring of original string 
-// from starting position specified in first parameter and going up a certain lengh
+// from starting position specified in first parameter and going up a certain length for second parameter
 var part = string4.substr(6, 8)
 console.log(part) // planet M
